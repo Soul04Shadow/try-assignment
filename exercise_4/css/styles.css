@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+
+html,body{
+    margin: 30px 0;
+    font-family: 'Rubik', sans-serif;
+    color:white
+}
+
+.footer-section-container {
+    background-color: rgba(7, 7, 7, 0.781) ;
+    padding:0 25ch;
+    
+}
+
+.footer-section-container > p {
+    padding: 4vh 0vh;
+}
+
+.footer-section-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3vh;
+}
+
+.footer-section-content .logo-links-section {
+    font-size: large;
+    width: 30%;
+}
+
+.logo-links-section > ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+.footer-section-content .recent-news-section {
+    width: 40%;
+    padding-right: 40px;
+}
+
+
+.recent-news-section > p {
+    font-size: large;
+    word-wrap: normal;
+    margin-bottom: 3vh;
+}
+
+.signup-section {
+    align-self: flex-start;
+    width: 33.33%;
+    padding-right: 15ch;
+}
+
+.signup-section > p {
+    font-size: large;
+    margin-bottom: 3.5vh;
+}
+
+.signup-section .buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4vh;
+}
+
+.signup-section .buttons .button2 {
+    border-radius: 5%;
+    background-color: rgb(48, 122, 233);
+    width: 50%;
+    text-align: center;
+    
+}
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-links > i {
+    padding-right: 3.5ch;
+}

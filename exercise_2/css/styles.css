@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    background-color: teal;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+main {
+    margin: 5vh 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.product-portfolio-container>h2 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 3.75em;
+}
+
+.product-portfolio-container>p {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.product-portfolio-container,
+.product-container-section {
+    border: 0;
+}
+
+.image {
+    height: 30vh;
+    width: 20vw;
+    opacity: 50%;
+}
+
+.image:hover {
+    opacity: 100%;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 1em;
+    align-items: stretch;
+    justify-items: center;
+}

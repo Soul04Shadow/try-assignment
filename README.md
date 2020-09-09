@@ -1,0 +1,2 @@
+Consisits of 4 exercises - Having cards, a footer, a navbar in a header and different relevant html components. Also consists of a basic responsive page in html of a covid information website.
+The repo only consists of the frontend.
